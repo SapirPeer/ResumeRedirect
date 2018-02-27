@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>  
+	<link rel="stylesheet" href="resume_redirect.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+	<div class ="ir__resume-redirect" id="ir__resume-redirect">
+		<div class="ir__close-button">&#10006;</div>
+		<div class="ir__redirect" style="display: none;">
+			<div class = "ir__resume-redirect__instruction"> Hmmm. The guide you selected starts on another page.<br/>
+				Would you like to go to that page and start the guide?
+			</div>
+			<input type="button" class= "ir__button"id="ir__redirect__button" value="Start the guide">
+		</div>
+
+		<div class="ir__resume" style="display: none" >
+			<div class="ir__resume-redirect__instruction">Hmmm. The guide you selected starts on another page.<br/>
+				Would you like to go back to the beginning and start it over,<br/>
+				or resume it on this page?
+			</div>
+			<input type="button" class="ir__button" id="start_it_over" value="Start it over">
+			<input type="button" class="ir__button" id="stay_on_this_page" value="Stay on this page" >
+			<p style="display: none" class="ir__resume-redirect__instruction" id="resume_instructions">Select a green step to proeceed on this page</p>
+			<div class="sectiom">
+				<div class="ir__scroll-buttons" >
+					<button  type="" class="ir__left-arrow" style="display:none;" >&#10094;</button>
+					<button  type="button" class="ir__right-arrow" style="display: none;" >&#10095;</button>
+				</div>
+				<div class="ir__resume__guide-steps" style="display:none;">
+				</div>
+			</div>
+		</div>
+
+		<div class="ir__find__guide__step" style="display: none;"> Click here to find another guide step</div>
+
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+		var steps = [{
+			"id":1,
+			"in_this_page":false,
+			"text":"this is the step description. pay attention that its larger"
+		},
+		{
+			"id":2,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":3,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":4,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":5,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":6,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":7,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":8,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":9,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":10,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":8,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":11,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":12,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":13,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":14,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":15,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":16,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+		{
+			"id":17,
+			"in_this_page":true,
+			"text":"this is the first step"
+		},
+
+
+
+		];
+
+		var x = new ResumeRedirect(steps);
+
+
+
+	//	x.render();
+
+	/*	function render(){
+		var step;
+		//check if there is at least one step for this page.
+		$.each(steps,function(index){
+			step=steps[index];
+			if(step.in_this_page == true){
+				optionStatus = "resume";
+				$(selectors.resume).show();
+				$(selectors.redirect).hide();
+				return;
+				
+			}	
+			//case there is no steps for this page.
+			optionStatus = "redirect";
+			$(selectors.resume).hide();
+			$(selectors.redirect).show();
+
+			
+		});
+	};*/
+//	resumeRedirect.init(steps);
+
+
+
+
+
+
+	</script>
+</body>
+</html>

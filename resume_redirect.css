@@ -1,0 +1,191 @@
+
+.ir__close-button{	
+	margin-left: 558px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.ir__resume-redirect{
+	width: 600px;
+	height: 250px;
+	line-height: : 250px;
+	overflow: hidden;
+	position: fixed;
+	bottom:0px;
+	right:50px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+	transition:height 4s;
+
+}
+.ir__resume-redirect{
+	font-family: Lato;
+	font-size: 16px;
+	color: #555555;
+	text-align: center;
+}
+
+.ir__resume-redirect__instruction{
+	padding-bottom: 30px;
+}
+
+.ir__button{
+	width: 180px;
+	line-height: 36px;
+	background: #eda766;
+	font-family: Lato;
+	font-size: 18px;
+	margin:6.25px;
+	color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,4);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#stay_on_this_page{
+	background: #1ab68a;
+
+}
+.ir__resume{
+	max-width: 600px;
+	
+}
+
+.ir__resume__guide-steps{
+	position: relative;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	display: inline-block;
+	height: 175px;
+	max-width: 620px;
+	right:22px;
+	bottom:5px;
+
+}
+
+.ir__resume__guide-steps__instructions{
+	padding-top: 55px;
+	padding-bottom:22px;
+	margin: 0px;
+}
+
+
+.ir__resume__guide-step{
+	display: inline-block;
+	padding-left: 35px;
+	width: 49px;
+}
+
+.ir__resume__guide-step__button{
+	line-height: 36px;
+	width: 36px;
+	border-radius: 50%;
+	background: #b3b3b3;
+	color:#e6e6e6;
+	outline: none;
+	border: none;
+	text-align: center;
+}
+
+.ir__resume__guide-step__button:enabled{
+	background: #1ab68a;
+	color: #ffffff;
+	cursor: pointer;
+
+
+}
+
+.ir__resume__guide-step__step{
+	position: absolute;
+	width: 49px;
+	margin-top:7px;
+	font-family: Lato;
+	font-size: 12px;
+	color: #555555;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;   
+
+
+}
+.ir__slide__left-button{
+	outline: none;
+	border: none;
+	position: absolute;
+	right: 12px;
+	bottom: 11px;
+	background: white;
+}
+
+.ir__slide__right-button{
+	outline: none;
+	border: none;
+	position: absolute;
+	bottom: 11px;
+	background: white;
+}
+
+
+.ir__find__guide__step{
+	position: relative;
+	white-space: nowrap;
+	line-height: 52px;
+	width: 600px;
+	bottom:40px;
+	font-size: 18pt;
+	color:#555555;
+	cursor: pointer;
+}
+
+.ir__right-arrow{
+	border: none;
+	background: none;
+	outline: none;
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 35px;
+	cursor: pointer;
+
+	
+}
+.ir__left-arrow{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+.fade_out {
+	animation-name: fadeOut;
+	opacity: 0.8;
+	transition-duration: 1s;
+}
+
+.maximize_window{
+	height: 400px;
+	transition:
+	height 1s;
+
+
+
+}
+.mid{
+	height: 250px;
+	transition:
+	height 1s;
+
+}
+
+.minimize_window{
+	height: 52px;
+	transition:
+	height 1s;
+
+}
